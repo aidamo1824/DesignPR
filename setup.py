@@ -12,7 +12,7 @@ setup(
     packages=find_packages(),  
     entry_points={
         "console_scripts": [
-            "DesignPR=designPR.main.py", 
+            "DesignPR=designPR.main:main", 
         ],
     },
     license="MIT"
