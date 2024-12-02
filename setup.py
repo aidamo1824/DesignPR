@@ -9,7 +9,8 @@ setup(
     author="",
     author_email="",
     url="https://github.com/aidamo1824/DesignPR",  
-    packages=find_packages(),  
+    packages=find_packages(), 
+    py_modules=["main"],
     entry_points={
         "console_scripts": [
             "DesignPR=designPR.main:main", 
