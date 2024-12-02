@@ -13,7 +13,7 @@ setup(
     py_modules=["main"],
     entry_points={
         "console_scripts": [
-            "DesignPR=designPR.main:main", 
+            "run_DesignPR=designPR.main:main", 
         ],
     },
     license="MIT"
