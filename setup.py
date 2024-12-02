@@ -12,7 +12,7 @@ setup(
     packages=find_packages(),  
     entry_points={
         "console_scripts": [
-            "primer-tool=my_package.gui:main",  # Replace with your package and entry point
+            "DesignPR=designPR.main.py", 
         ],
     },
     license="MIT"
