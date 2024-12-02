@@ -17,7 +17,7 @@ class DesignPR:
     
     def create_purpose_frame(self):
         
-        purpose_frame = ttk.LabelFrame(root, text="Primers Purpose")
+        purpose_frame = ttk.LabelFrame(self.root, text="Primers Purpose")
         purpose_frame.grid(row=0, column=0, padx=10, pady=5, sticky="ew")
 
         self.purpose_user = tk.StringVar(value="Insertion")
@@ -27,14 +27,14 @@ class DesignPR:
     
     def create_sequence_frame(self):
     
-        self.seq_frame = ttk.Frame(root)
+        self.seq_frame = ttk.Frame(self.root)
         self.seq_frame.grid(row=1, column=0, padx=10, pady=5, sticky="ew")
         self.update_sequence_fields()
 
 
     def create_method_frame(self): 
         
-        method_frame = ttk.LabelFrame(root, text="Cloning Method")
+        method_frame = ttk.LabelFrame(self.root, text="Cloning Method")
         method_frame.grid(row=2, column=0, padx=10, pady=5, sticky="ew")
 
         self.method_var = tk.StringVar(value="IVA")
@@ -45,14 +45,14 @@ class DesignPR:
         
     def create_result_frame(self):
         
-        result_frame = ttk.LabelFrame(root, text="Designed Primers")
+        result_frame = ttk.LabelFrame(self.root, text="Designed Primers")
         result_frame.grid(row=3, column=0, padx=10, pady=5, sticky="ew")
 
         self.result_text = tk.Text(result_frame, height=10, width=60, state="disabled")
         self.result_text.grid(row=0, column=0, padx=5, pady=5)
 
     def create_action_buttons(self):
-        button_frame = ttk.Frame(root)
+        button_frame = ttk.Frame(self.root)
         button_frame.grid(row=4, column=0, padx=10, pady=5, sticky="ew")
 
         ttk.Button(button_frame, text="Design Primers", command=self.design_primers).grid(row=0, column=0, padx=5, pady=5)
