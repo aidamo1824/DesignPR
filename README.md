@@ -5,3 +5,15 @@ Primer design is a critical step in molecular biology, including PCR (Polymerase
 In vivo Assembly (IVA) is a cloning method that takes advantage of the host cells' own machinary to fuse DNA fragments together and circularize PCR products into plasmids. This is achieved through optimizing primer design to include both template-annealing and fragment-overlap regions that guide the assembly of DNA fragments in vivo. 
 
 DesignPR is a user-friendly application for primer design with parameter optimization, enabling high-throughput primer generation and use. 
+
+
+## Installation
+
+```bash
+pip install DesignPR
+
+```
+## Run GUI
+
+```bash
+run_designPR
