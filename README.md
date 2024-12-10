@@ -1,6 +1,6 @@
 # DesignPR
 
-DesignPR is a user-friendly application for primer design with parameter optimization, enabling high-throughput primer generation and optimization for methods like IVA. 
+DesignPR is a user-friendly application for primer design with parameter optimization, enabling high-throughput primer generation and optimization for molecular cloning methods like IVA. 
 
 
 ## Features
