@@ -2,11 +2,11 @@ import unittest
 import tkinter as tk
 from tkinter import ttk
 
-class TestDesignPR(unittest.TestCase):
+class TestDesignPR_gui(unittest.TestCase):
     def setUp(self):
         self.root = tk.Tk()
         self.gui = DesignPR(self.root)
-
+        
     def tearDown(self):
         self.root.destroy()
 
