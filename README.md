@@ -7,6 +7,11 @@ In vivo Assembly (IVA) is a cloning method that takes advantage of the host cell
 DesignPR is a user-friendly application for primer design with parameter optimization, enabling high-throughput primer generation and use. 
 
 
+## Features
+- User-friendly GUI that takes primer design information and DNA sequences
+- Generate primer design well-suited for IVA
+- Optimize primers for annealing temperatures and GC content
+
 ## Installation
 
 ```bash
