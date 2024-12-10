@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="DesignPR",  
-    version="0.2.2",  # Update as you make changes
+    version="0.2.3",  # Update as you make changes
     description="A GUI tool for designing PCR primers",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
