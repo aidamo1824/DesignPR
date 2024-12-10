@@ -9,6 +9,6 @@ authors = [{name = "Aida Moghadasi", email = "aidamo@uw.edu"}]
 readme = "README.md"
 license = "MIT"
 dependencies = [
-    "biopython",  # For Bio.SeqUtils and related modules
-    "tk"  # For tkinter support
+    "biopython>=1.80",
+    "tkinter", # For tkinter support
 ]
