@@ -1,3 +1,10 @@
+import Bio.SeqUtils
+from Bio.SeqUtils import gc_fraction
+from Bio.SeqUtils.MeltingTemp import Tm_NN
+import tkinter as tk
+from tkinter import ttk, messagebox
+
+
 class DesignPR: 
     
     def __init__(self, root):
