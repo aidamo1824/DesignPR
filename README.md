@@ -9,8 +9,8 @@ DesignPR is a user-friendly application for primer design with parameter optimiz
 
 ## Features
 - User-friendly GUI that takes primer design information and DNA sequences
-- Generate primer design well-suited for IVA
-- Optimize primers for annealing temperatures and GC content
+- Generate primer designs well-suited for IVA
+- Optimize primers for annealing temperature and GC content
 
 ## Installation
 
